@@ -1,0 +1,4 @@
+;
+;
+;
+//# sourceMappingURL=TemporyImage.js.map

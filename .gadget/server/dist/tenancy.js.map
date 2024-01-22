@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/tenancy.ts"],
+  "sourcesContent": ["export const AppTenancyKey = Symbol.for(\"gadget/appTenancy\");\n\nexport type AppTenant = Partial<{\n  shopify: Pick<ShopifyTenant, \"shopId\">;\n}>;\n\nexport type AppTenancy = Partial<{\n  shopify: ShopifyTenant;\n}>;\n\ntype ShopifyTenant = {\n  shopId: bigint;\n  domain: string;\n  accessToken: string;\n  apiVersion: string;\n};\n"],
+  "mappings": "AAAO,MAAM,gBAAgB,OAAO,IAAI,mBAAmB;",
+  "names": []
+}

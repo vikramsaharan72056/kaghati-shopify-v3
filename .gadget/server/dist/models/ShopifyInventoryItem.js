@@ -1,0 +1,4 @@
+;
+;
+;
+//# sourceMappingURL=ShopifyInventoryItem.js.map

@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@fastify/request-context": "^5.0.0",
+    "@gadget-client/kaghati-shopify-v3": "link:../client",
+    "@gadgetinc/api-client-core": "0.15.14",
+    "@types/node": "^20.8.4",
+    "fastify": "^4.24.2"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./ai": "./dist/ai/index.js"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "gadget": {
+    "applicationName": "kaghati-shopify-v3",
+    "environmentName": "Development",
+    "environmentVersion": "1954"
+  },
+  "main": "dist/index.js",
+  "name": "gadget-server",
+  "peerDependencies": {
+    "shopify-api-node": "*"
+  },
+  "private": true,
+  "scripts": {},
+  "types": "dist/index.d.ts",
+  "version": "1.1.0-development.1953"
+}
